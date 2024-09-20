@@ -30,6 +30,7 @@ android {
         }
     }
     compileOptions {
+
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
@@ -50,6 +51,7 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.annotation:annotation:1.3.0")
     val compose_version = "1.6.0-alpha06"
     implementation("androidx.compose.ui:ui:$compose_version")
     implementation("androidx.compose.material:material:$compose_version")
